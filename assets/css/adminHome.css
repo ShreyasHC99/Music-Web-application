@@ -1,0 +1,31 @@
+body {
+	font-family:cursive;
+	background-color: #008080;
+	color:white;
+}
+
+ul {
+	margin-left:90px;
+	list-style:none;
+}
+
+li {
+	float:left;
+	margin-right:40px;
+
+}
+
+.songs-table {
+	display:none;
+}
+
+.artists-table {
+	display: none;
+}
+
+.db-table {
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
